@@ -69,7 +69,7 @@ body{
 /*ARTICLE AREA*/
 
 .article-area{
-	background-color: white;
+	background-color: rgb(232,236,237);
 	overflow:hidden;
 	padding: 20px;
 	font-size: 12px;
@@ -140,4 +140,50 @@ margin-top: 10px;
 }	
 
 
+ol{
+	padding: 15px;
 }
+
+.posted{
+	color: gray;
+}
+
+/*COMMENTS*/
+
+fieldset {
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
+	border-color: gray;
+	padding: 0;
+	margin: 0;
+
+}
+
+legend {
+padding-left: 10px;
+padding-right: 10px;
+color: gray;
+margin-left: 10px;
+
+}
+
+label {
+	display: inline-block;
+	width: 20%;
+	text-align: right;
+	height: 25px;
+}
+
+input {
+	display: inline-block;
+	width: 75%;
+}
+
+textarea{
+	width: 99%;
+	height: 100px;
+	margin-top: 20px;
+}
+
+
