@@ -72,13 +72,72 @@ body{
 	background-color: white;
 	overflow:hidden;
 	padding: 20px;
+	font-size: 12px;
+
 }
 
 .article-link{
 	color: orange;
-	font-size: 16px;
-	margin: 5px;
+	font-size: 12px;
+	margin-right: 5px;
+	padding: 0px;
+}
+
+.article-title{
+	margin-left: 20px;
 }
 
 
+/*Section Title*/
 
+h4{
+	text-indent: 10px;
+	margin-top: 40px;
+	border-bottom: 1px solid gray;
+	padding-bottom: 10px;
+}
+
+
+/*TABLE AREA*/
+
+table, td{
+	border:1px solid gray;
+	font-size: 12px;
+	padding: 10px;
+
+}
+
+.header {
+	background-color: lightgray;
+	font-weight: bold;
+	text-align: left;
+
+}
+
+.blue-box{
+	background-color: #3498db;
+	padding: 1px;
+	color: white;
+	padding: 5px;
+	text-align: center;
+}
+
+/*Section Box1*/
+
+.section-box1{
+	white-space: pre;
+	background-color: lightgrey;
+	padding-bottom: 10px;
+	text-align: middle;
+}
+
+/*SECTION BOX 2*/
+
+img{
+display: block;
+margin:auto;
+margin-top: 10px;
+}	
+
+
+}
