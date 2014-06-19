@@ -1,0 +1,21 @@
+body{
+	background-color: gray;
+}
+
+.main{
+	width: 50%;
+	margin: auto;
+}
+
+.site-top{
+
+/*box attributes*/
+	background-color: #2ecc71;
+	border-bottom: 6px solid #27ae60;
+	height: 200px;
+	line-height: 350px;
+/*text attributes*/
+	color:white;
+	font-size: 12px;
+
+}
